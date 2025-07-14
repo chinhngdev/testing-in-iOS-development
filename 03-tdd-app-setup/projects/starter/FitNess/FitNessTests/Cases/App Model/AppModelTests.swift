@@ -1,4 +1,4 @@
-/// Copyright (c) 2021 Razeware LLC
+/// Copyright (c) 2025 Razeware LLC
 /// 
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
@@ -30,17 +30,36 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import Foundation
+import FitNess
+import XCTest
 
-/// Contains the app's current state.
-public class AppModel {
-  static let instance = AppModel()
+final class AppModelTests: XCTestCase {
   
-  public var appState: AppState = .notStarted
+  var sut: AppModel!
 
-  public init() {}
+    override func setUpWithError() throws {
+        try super.setUpWithError()
+        sut = AppModel()
+    }
+
+    override func tearDownWithError() throws {
+        sut = nil
+        try super.tearDownWithError()
+    }
   
-  public func start() {
-    appState = .inProgress
-  }
+    func testAppModel_whenInitialized_isInNotStartedState() {
+        let initialState = sut.appState
+        XCTAssertEqual(initialState, AppState.notStarted)
+    }
+  
+    func testAppModel_whenStarted_isInInProgressState() {
+        // 1 given app in not started - Cho trước
+        
+        // 2 when started - Khi
+        sut.start()
+        
+        // 3 then it is in inProgress - Thì
+        let observedState = sut.appState
+        XCTAssertEqual(observedState, .inProgress)
+    }
 }

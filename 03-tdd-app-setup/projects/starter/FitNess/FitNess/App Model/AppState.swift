@@ -32,6 +32,8 @@
 
 import Foundation
 
+
+/// Represents the app's different potential states.
 public enum AppState {
   case notStarted, inProgress, paused, completed, caught
 }
