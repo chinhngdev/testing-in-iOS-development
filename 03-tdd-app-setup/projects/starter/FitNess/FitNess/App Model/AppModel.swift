@@ -33,7 +33,7 @@
 import Foundation
 
 /// Contains the app's current state.
-public class AppModel {
+final class AppModel {
   static let instance = AppModel()
   
   public var appState: AppState = .notStarted
