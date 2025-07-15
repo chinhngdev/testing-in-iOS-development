@@ -3,26 +3,8 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		180DC61523C78D9800486B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180DC61423C78D9800486B1A /* LaunchScreen.storyboard */; };
-		185CB1FC23C78CE6009F7571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB1FB23C78CE6009F7571 /* AppDelegate.swift */; };
-		185CB1FE23C78CE6009F7571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185CB1FD23C78CE6009F7571 /* SceneDelegate.swift */; };
-		185CB20323C78CE6009F7571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185CB20123C78CE6009F7571 /* Main.storyboard */; };
-		185CB20523C78CE8009F7571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185CB20423C78CE8009F7571 /* Assets.xcassets */; };
-		4CBCDEB32701423C00E8992C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDEB22701423C00E8992C /* RootViewController.swift */; };
-		4CBCDEB52701425C00E8992C /* ChaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDEB42701425C00E8992C /* ChaseView.swift */; };
-		4CBCDEB72701426800E8992C /* StepCountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDEB62701426800E8992C /* StepCountController.swift */; };
-		4CBCDEBC270142DF00E8992C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDEBB270142DF00E8992C /* AppState.swift */; };
-		4CBCDEBE270142EE00E8992C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCDEBD270142EE00E8992C /* AppModel.swift */; };
-		4CCF440C2705284300DD29AB /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF440B2705284300DD29AB /* AppModelTests.swift */; };
-		4CCF440E27052F8000DD29AB /* StepCountControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF440D27052F8000DD29AB /* StepCountControllerTests.swift */; };
-		4CCF44142706844A00DD29AB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF44132706844A00DD29AB /* DataModel.swift */; };
-		4CCF44162706846400DD29AB /* Nessie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF44152706846400DD29AB /* Nessie.swift */; };
-		4CCF44182706849B00DD29AB /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF44172706849B00DD29AB /* AppError.swift */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4CCF44062705277700DD29AB /* PBXContainerItemProxy */ = {
@@ -35,25 +17,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		180DC61423C78D9800486B1A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185CB1F823C78CE6009F7571 /* FitNess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitNess.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		185CB1FB23C78CE6009F7571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		185CB1FD23C78CE6009F7571 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		185CB20223C78CE6009F7571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		185CB20423C78CE8009F7571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		185CB20923C78CE8009F7571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CBCDEB22701423C00E8992C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		4CBCDEB42701425C00E8992C /* ChaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseView.swift; sourceTree = "<group>"; };
-		4CBCDEB62701426800E8992C /* StepCountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCountController.swift; sourceTree = "<group>"; };
-		4CBCDEBB270142DF00E8992C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		4CBCDEBD270142EE00E8992C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		4CCF44022705277700DD29AB /* FitNessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitNessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CCF440B2705284300DD29AB /* AppModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModelTests.swift; sourceTree = "<group>"; };
-		4CCF440D27052F8000DD29AB /* StepCountControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCountControllerTests.swift; sourceTree = "<group>"; };
-		4CCF44132706844A00DD29AB /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		4CCF44152706846400DD29AB /* Nessie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nessie.swift; sourceTree = "<group>"; };
-		4CCF44172706849B00DD29AB /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		347E275A2E260907003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 185CB1F723C78CE6009F7571 /* FitNess */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		347E27342E260902003D789D /* FitNessTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FitNessTests; sourceTree = "<group>"; };
+		347E274B2E260907003D789D /* FitNess */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (347E275A2E260907003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = FitNess; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		185CB1F523C78CE6009F7571 /* Frameworks */ = {
@@ -76,8 +57,8 @@
 		185CB1EF23C78CE6009F7571 = {
 			isa = PBXGroup;
 			children = (
-				185CB1FA23C78CE6009F7571 /* FitNess */,
-				4CCF44032705277700DD29AB /* FitNessTests */,
+				347E274B2E260907003D789D /* FitNess */,
+				347E27342E260902003D789D /* FitNessTests */,
 				185CB1F923C78CE6009F7571 /* Products */,
 			);
 			indentWidth = 2;
@@ -91,108 +72,6 @@
 				4CCF44022705277700DD29AB /* FitNessTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		185CB1FA23C78CE6009F7571 /* FitNess */ = {
-			isa = PBXGroup;
-			children = (
-				4CBCDEB82701427500E8992C /* App Layer */,
-				4CBCDEBF270142F400E8992C /* App Model */,
-				4CCF44122706843900DD29AB /* Data Model */,
-				4CBCDEB92701428100E8992C /* UI Layer */,
-				4CBCDEBA2701429900E8992C /* Assets & Info */,
-				185CB20923C78CE8009F7571 /* Info.plist */,
-			);
-			path = FitNess;
-			sourceTree = "<group>";
-		};
-		4CBCDEB82701427500E8992C /* App Layer */ = {
-			isa = PBXGroup;
-			children = (
-				185CB1FB23C78CE6009F7571 /* AppDelegate.swift */,
-				185CB1FD23C78CE6009F7571 /* SceneDelegate.swift */,
-				4CBCDEB22701423C00E8992C /* RootViewController.swift */,
-				185CB20123C78CE6009F7571 /* Main.storyboard */,
-			);
-			path = "App Layer";
-			sourceTree = "<group>";
-		};
-		4CBCDEB92701428100E8992C /* UI Layer */ = {
-			isa = PBXGroup;
-			children = (
-				4CBCDEB42701425C00E8992C /* ChaseView.swift */,
-				4CBCDEB62701426800E8992C /* StepCountController.swift */,
-			);
-			path = "UI Layer";
-			sourceTree = "<group>";
-		};
-		4CBCDEBA2701429900E8992C /* Assets & Info */ = {
-			isa = PBXGroup;
-			children = (
-				185CB20423C78CE8009F7571 /* Assets.xcassets */,
-				180DC61423C78D9800486B1A /* LaunchScreen.storyboard */,
-			);
-			path = "Assets & Info";
-			sourceTree = "<group>";
-		};
-		4CBCDEBF270142F400E8992C /* App Model */ = {
-			isa = PBXGroup;
-			children = (
-				4CBCDEBB270142DF00E8992C /* AppState.swift */,
-				4CBCDEBD270142EE00E8992C /* AppModel.swift */,
-				4CCF44172706849B00DD29AB /* AppError.swift */,
-			);
-			path = "App Model";
-			sourceTree = "<group>";
-		};
-		4CCF44032705277700DD29AB /* FitNessTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CCF440F27052F9C00DD29AB /* Cases */,
-			);
-			path = FitNessTests;
-			sourceTree = "<group>";
-		};
-		4CCF440F27052F9C00DD29AB /* Cases */ = {
-			isa = PBXGroup;
-			children = (
-				4CCF441027052FA500DD29AB /* App Model */,
-				4CCF441A2706879400DD29AB /* Data Model */,
-				4CCF441127052FAC00DD29AB /* UI Layer */,
-			);
-			path = Cases;
-			sourceTree = "<group>";
-		};
-		4CCF441027052FA500DD29AB /* App Model */ = {
-			isa = PBXGroup;
-			children = (
-				4CCF440B2705284300DD29AB /* AppModelTests.swift */,
-			);
-			path = "App Model";
-			sourceTree = "<group>";
-		};
-		4CCF441127052FAC00DD29AB /* UI Layer */ = {
-			isa = PBXGroup;
-			children = (
-				4CCF440D27052F8000DD29AB /* StepCountControllerTests.swift */,
-			);
-			path = "UI Layer";
-			sourceTree = "<group>";
-		};
-		4CCF44122706843900DD29AB /* Data Model */ = {
-			isa = PBXGroup;
-			children = (
-				4CCF44132706844A00DD29AB /* DataModel.swift */,
-				4CCF44152706846400DD29AB /* Nessie.swift */,
-			);
-			path = "Data Model";
-			sourceTree = "<group>";
-		};
-		4CCF441A2706879400DD29AB /* Data Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +90,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				347E274B2E260907003D789D /* FitNess */,
+			);
 			name = FitNess;
 			productName = MyRWTutorial;
 			productReference = 185CB1F823C78CE6009F7571 /* FitNess.app */;
@@ -228,6 +110,9 @@
 			);
 			dependencies = (
 				4CCF44072705277700DD29AB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				347E27342E260902003D789D /* FitNessTests */,
 			);
 			name = FitNessTests;
 			productName = FitNessTests;
@@ -278,9 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180DC61523C78D9800486B1A /* LaunchScreen.storyboard in Resources */,
-				185CB20523C78CE8009F7571 /* Assets.xcassets in Resources */,
-				185CB20323C78CE6009F7571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,16 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CBCDEBE270142EE00E8992C /* AppModel.swift in Sources */,
-				185CB1FC23C78CE6009F7571 /* AppDelegate.swift in Sources */,
-				4CCF44182706849B00DD29AB /* AppError.swift in Sources */,
-				4CBCDEB52701425C00E8992C /* ChaseView.swift in Sources */,
-				4CBCDEB72701426800E8992C /* StepCountController.swift in Sources */,
-				4CBCDEBC270142DF00E8992C /* AppState.swift in Sources */,
-				4CCF44142706844A00DD29AB /* DataModel.swift in Sources */,
-				185CB1FE23C78CE6009F7571 /* SceneDelegate.swift in Sources */,
-				4CBCDEB32701423C00E8992C /* RootViewController.swift in Sources */,
-				4CCF44162706846400DD29AB /* Nessie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,8 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCF440E27052F8000DD29AB /* StepCountControllerTests.swift in Sources */,
-				4CCF440C2705284300DD29AB /* AppModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,17 +220,6 @@
 			targetProxy = 4CCF44062705277700DD29AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		185CB20123C78CE6009F7571 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185CB20223C78CE6009F7571 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		185CB20A23C78CE8009F7571 /* Debug */ = {
