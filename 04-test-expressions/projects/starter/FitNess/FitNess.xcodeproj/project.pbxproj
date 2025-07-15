@@ -22,10 +22,31 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		347E275A2E260907003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		347E27612E265452003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				ViewControllers.swift,
+			);
+			target = 185CB1F723C78CE6009F7571 /* FitNess */;
+		};
+		347E27632E265455003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ViewControllers.swift,
+			);
+			target = 4CCF44012705277700DD29AB /* FitNessTests */;
+		};
+		347E27682E2654D5003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"RootViewController+Tests.swift",
+			);
+			target = 4CCF44012705277700DD29AB /* FitNessTests */;
+		};
+		347E27692E2654EE003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"RootViewController+Tests.swift",
 			);
 			target = 185CB1F723C78CE6009F7571 /* FitNess */;
 		};
@@ -33,7 +54,9 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		347E27342E260902003D789D /* FitNessTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FitNessTests; sourceTree = "<group>"; };
-		347E274B2E260907003D789D /* FitNess */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (347E275A2E260907003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = FitNess; sourceTree = "<group>"; };
+		347E274B2E260907003D789D /* FitNess */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FitNess; sourceTree = "<group>"; };
+		347E275D2E2653F1003D789D /* Test Classes */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (347E27612E265452003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 347E27632E265455003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Test Classes"; sourceTree = "<group>"; };
+		347E27642E2654BE003D789D /* Test Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (347E27692E2654EE003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 347E27682E2654D5003D789D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Test Extensions"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +82,8 @@
 			children = (
 				347E274B2E260907003D789D /* FitNess */,
 				347E27342E260902003D789D /* FitNessTests */,
+				347E27642E2654BE003D789D /* Test Extensions */,
+				347E275D2E2653F1003D789D /* Test Classes */,
 				185CB1F923C78CE6009F7571 /* Products */,
 			);
 			indentWidth = 2;
@@ -92,6 +117,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				347E274B2E260907003D789D /* FitNess */,
+				347E275D2E2653F1003D789D /* Test Classes */,
+				347E27642E2654BE003D789D /* Test Extensions */,
 			);
 			name = FitNess;
 			productName = MyRWTutorial;
