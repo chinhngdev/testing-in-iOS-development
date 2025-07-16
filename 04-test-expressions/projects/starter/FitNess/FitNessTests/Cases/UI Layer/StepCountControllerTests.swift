@@ -44,9 +44,9 @@ class StepCountControllerTests: XCTestCase {
   }
 
   override func tearDownWithError() throws {
+      AppModel.instance.dataModel.goal = nil
       AppModel.instance.restart()
       sut.updateUI()
-      AppModel.instance.dataModel.goal = nil
       try super.tearDownWithError()
   }
 
